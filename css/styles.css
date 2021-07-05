@@ -1,0 +1,150 @@
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu Mono', monospace; 
+*/
+
+/* 
+#2B1F31
+#413D65
+
+#5FB9B0
+#BEF992 
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.dkgrey-bg {
+	background-color: #2B1F31;
+}
+
+.title,
+.subtitle {
+	font-family: 'Ubuntu Mono', monospace; 
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px double black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*======================== 
+Header Section 
+=========================*/
+/* Navbar */
+nav a {
+	color: #5FB9B0 !important;
+}
+
+nav a:hover,
+nav a:focus {
+	color: #BEF992 !important;
+	background-color: #2B1F31 !important;
+}
+
+.brand-home {
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.navbar {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1.5rem;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.navbar-burger span {
+	text-align: center;
+}
+
+.is-active {
+	text-align: center;
+}
+
+.hero {
+	background-color: 2B1F31 !important;
+}
+
+.hero-body p,
+.hero-body h1 {
+		color: #5FB9B0;
+}
+
+/*=========================
+About Section
+==========================*/
+.about {
+	color: #2B1F31;
+/* 	display: flex;
+	flex-direction: column;
+	justify-content: center; */
+	text-align: center;
+}
+
+.section-heading {
+	border: 2px;
+	border-style: solid none;
+	padding: .8em;
+}
+
+.about-me-content {
+	margin-top: 1.5em;
+}
+
+.tile i {
+	font-size: 2.5rem;
+}
+
+.tile-title {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1rem;
+}
+
+.about .subtitle {
+	margin-bottom: .5em;
+}
+
+.about-para {
+	text-align: left;
+	width: 90%;
+}
+/*=========================
+Work Section
+==========================*/
+.work .section-heading {
+	color: #5FB9B0;
+	margin-bottom: 2em;
+}
+
+.work .section-heading .title {
+		color: #5FB9B0;
+}
+
+/* Card Styles */
+
+.media-content {
+	text-align: center;
+}
